@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 
-/* Giá trị spacing cơ bản tương ứng với 1rem */
 
+/* index.css */
 :root {
-  --base-font-size: 50px;
-  --base-spacing: 1rem;        
+  --base-font-size: 20px; /* Determine the base font size for the entire website. */
+  --base-spacing: 1rem;  /* Determine the basic spacing between elements on the web page. */
 }
-html {
-  font-size: var(--base-font-size);
+html {                                
+  font-size: var(--base-font-size); /* Set the font size of the html element using the value of the --base-font-size variable. 
+                                      This applies the base font size defined above to the entire website. */
 }
 
 

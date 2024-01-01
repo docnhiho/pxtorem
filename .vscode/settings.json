@@ -1,5 +1,7 @@
 {
     "typescript.tsdk": "node_modules\\typescript\\lib",
     "css.lint.unknownAtRules": "ignore",
-    // "tailwindCSS.rootFontSize": 30
+
+    //file setting.json
+    "tailwindCSS.rootFontSize": 20
 }
