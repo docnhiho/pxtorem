@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --base-font-size: 20px;
-  --base-spacing: 1rem; /* Giá trị spacing cơ bản tương ứng với 1rem */
-}
 
+/* Giá trị spacing cơ bản tương ứng với 1rem */
+
+:root {
+  --base-font-size: 50px;
+  --base-spacing: 1rem;        
+}
 html {
   font-size: var(--base-font-size);
 }
+
+
 /* 
 body {
   margin: 0;
